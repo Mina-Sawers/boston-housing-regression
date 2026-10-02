@@ -70,3 +70,17 @@ fig3 = px.scatter(
 )
 fig3.add_vline(x=st_ratio,line_width=2,line_dash='dash',line_color='red',annotation_text='Your Input')
 st.plotly_chart(fig3,use_container_width=True)
+
+st.markdown("---")
+
+# 6. Signature and Project Details
+st.markdown("""
+### About this Project
+This interactive dashboard predicts real estate prices using the classic **Boston Housing Dataset**. It is powered by a machine learning **Decision Tree Regressor** trained on three key market drivers: the number of rooms (RM), neighborhood poverty rate (LSTAT), and local student-teacher ratio (PTRATIO). 
+
+To prevent the algorithm from overfitting to the training data, the model was optimized with a **Maximum Depth of 4**, striking the ideal balance between complexity and predictive generalization.
+
+👨‍💻 **Created by Mina Sawiris**  
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/mina-sawiris) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/mina-sawers/)
+""")
