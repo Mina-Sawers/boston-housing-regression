@@ -12,7 +12,7 @@ The core of this application is a **Decision Tree Regressor**.
 During development, extensive hyperparameter tuning was conducted to handle the Bias-Variance tradeoff. The model was optimized with a `max_depth` of **4** to prevent **overfitting**, ensuring the algorithm understands the underlying market trends rather than simply memorizing the training data.
 
 **Features Analyzed:**
-*   **RM (Rooms):** Average number of rooms per dwelling.
+*   **RM (Rooms):** Average number of rooms.
 *   **LSTAT (Poverty Rate):** Percentage of the lower status of the population.
 *   **PTRATIO (Student-Teacher Ratio):** Pupil-teacher ratio by local town.
 
@@ -26,4 +26,4 @@ During development, extensive hyperparameter tuning was conducted to handle the 
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/mina-sawiris/boston-housing-regression.git](https://github.com/mina-sawiris/boston-housing-regression.git)
+   git clone https://github.com/mina-sawiris/boston-housing-regression.git
